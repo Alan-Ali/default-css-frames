@@ -1,0 +1,108 @@
+/*
+
+::-webkit-scrollbar the scrollbar.
+::-webkit-scrollbar-button the buttons on the scrollbar (arrows pointing upwards and downwards).
+::-webkit-scrollbar-thumb the draggable scrolling handle.
+::-webkit-scrollbar-track the track (progress bar) of the scrollbar.
+::-webkit-scrollbar-track-piece the track (progress bar) NOT covered by the handle.
+::-webkit-scrollbar-corner the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet.
+::-webkit-resizer the draggable resizing handle that appears at the bottom corner of some elements.
+
+*/
+
+
+.disableScroll {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.scroll-x-auto {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.scroll-y-auto {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.scroll-auto{
+    overflow: auto;
+}
+
+
+.scroll-x-scroll {
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.scroll-y-scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+
+/* width */
+
+
+.scroll-x-auto, .scroll-y-auto, .scroll-auto, .scroll-x-scroll, .scroll-y-scroll ,.scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.scroll-x-auto,
+.scroll-y-auto,
+.scroll-auto,
+.scroll-x-scroll,
+.scroll-y-scroll,
+.scroll::-webkit-scrollbar-track {
+    box-shadow: outset 0 3px 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.scroll-x-auto,
+.scroll-y-auto,
+.scroll-auto,
+.scroll-x-scroll,
+.scroll-y-scroll,
+.scroll::-webkit-scrollbar-thumb {
+    background: rgb(89, 89, 89);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.scroll-x-auto,
+.scroll-y-auto,
+.scroll-auto,
+.scroll-x-scroll,
+.scroll-y-scroll,
+.scroll::-webkit-scrollbar-thumb:hover {
+    background: rgb(49, 133, 156);
+}
+
+    
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+::-webkit-scrollbar-track {
+    box-shadow: outset 0 3px 5px grey;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgb(89, 89, 89);
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(49, 133, 156);
+}

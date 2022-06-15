@@ -1,0 +1,37 @@
+.t-dec-dashed{
+    text-decoration:dashed; 
+}
+
+.t-dec-dotted{
+    text-decoration:dotted;
+}
+
+.t-dec-double {
+    text-decoration:double ;
+}
+
+.t-dec-line-through {
+    text-decoration:line-through ;
+}
+.t-dec-none {
+    text-decoration:none ;
+}
+.t-dec-overline {
+    text-decoration:overline ;
+}
+
+.t-dec-solid {
+    text-decoration:solid ;
+}
+
+
+.t-dec-underline {
+    text-decoration:underline ;
+}
+
+
+.t-dec-wavy {
+    text-decoration:wavy ;
+}
+
+
