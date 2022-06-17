@@ -16,7 +16,16 @@
             display: flex;
         }
         
+        .dis-none{
+            display: none;
+        }
 
+        .vis-off{
+            visibility: hidden;
+        }
+        .vis-on {
+            visibility: visible;
+        }
 
         .dis-flex-center {
             display: flex;

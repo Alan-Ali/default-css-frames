@@ -16,6 +16,15 @@
     overflow-x: hidden;
 }
 
+.scroll-x{
+    overflow-x: scroll;
+}
+
+.scroll-y {
+    overflow-y: scroll;
+}
+
+
 .scroll-x-auto {
     overflow-y: hidden;
     overflow-x: auto;
@@ -71,7 +80,7 @@
 .scroll-x-scroll,
 .scroll-y-scroll,
 .scroll::-webkit-scrollbar-thumb {
-    background: rgb(89, 89, 89);
+    background: rgb(153, 153, 153);
     border-radius: 5px;
 }
 
